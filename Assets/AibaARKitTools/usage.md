@@ -1,4 +1,4 @@
-# Aiba's VRKit Helpers
+# Aiba's ARKit Tools
 ## Usage
 - Open Aiba Tools -> Setup ARKit Blendshapes
 - Put your VRM Object (the one with the "VRM Meta" script on it) into the "Avatar" field
