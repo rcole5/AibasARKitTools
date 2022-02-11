@@ -5,6 +5,7 @@ using System.Linq;
 using UniGLTF;
 using VRM;
 
+#if UNITY_EDITOR
 public class CreateARKitBlendshapes : EditorWindow
 {
     VRMBlendShapeProxy m_proxy;
@@ -158,3 +159,4 @@ public class CreateARKitBlendshapes : EditorWindow
         EditorUtility.SetDirty(m_avatar);
     }
 }
+#endif
